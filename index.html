@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS App Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="app-header">
+        <div class="logo">
+            <img src="lgo.png" alt="UTS Logo" />
+        </div>
+        <div class="app-title">UTS</div>
+        <p class="subtitle">IR Unreserved Ticketing</p>
+        <nav>
+            <button class="login-btn" type="button" aria-label="Login">LOGIN</button>
+            <button class="menu-btn" type="button" aria-label="Menu">&#x2630;</button>
+        </nav>
+    </header>
+
+    <!-- Promo Banner -->
+    <section class="promo-banner">
+        INDIAN RAILWAYS OFFERS 10% BONUS ON RECHARGE OF R-WALLET.
+    </section>
+
+    <!-- Feature Icons -->
+    <section class="features">
+        <div class="feature-item">Journey Ticket</div>
+        <div class="feature-item">QR Booking</div>
+        <div class="feature-item">Quick Booking</div>
+        <div class="feature-item">Platform Ticket</div>
+        <div class="feature-item">Season Ticket</div>
+    </section>
+
+    <!-- Secondary Options -->
+    <section class="secondary-options">
+        <div class="option-item">Cancel Ticket</div>
+        <div class="option-item">Booking History</div>
+        <div class="option-item">Show Ticket</div>
+        <div class="option-item">R-Wallet</div>
+        <div class="option-item">Profile</div>
+        <div class="option-item">Transactions</div>
+    </section>
+
+    <!-- Normal Booking Section -->
+    <section class="normal-booking">
+        <h2>Normal Booking</h2>
+        <div class="booking-options">
+            <label>
+                <input type="radio" name="booking" value="paperless"> Book & Travel (Paperless)
+            </label>
+            <label>
+                <input type="radio" name="booking" value="paper"> Book & Print (Paper)
+            </label>
+        </div>
+        <div class="stations">
+            <div>
+                <label for="depart-from">Depart From</label>
+                <input type="text" id="depart-from" placeholder="Station Name" />
+            </div>
+            <button class="swap-stations" type="button" aria-label="Swap Stations">&#x21C4;</button>
+            <div>
+                <label for="going-to">Going To</label>
+                <input type="text" id="going-to" placeholder="Station Name" />
+            </div>
+        </div>
+        <div class="booking-actions">
+            <button class="next-trains-btn" type="button">NEXT TRAINS</button>
+            <button class="get-fare-btn" type="button">GET FARE</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+        <button class="help-btn" type="button" aria-label="Help">HELP</button>
+        <div class="footer-info">G.16.63 (15.1.41) | Centre for Railway Information Systems (CRIS)</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
